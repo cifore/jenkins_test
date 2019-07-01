@@ -8,6 +8,6 @@ public class JenkinController {
 
     @RequestMapping( "/jenkins" )
     public String test(){
-        return "hello,jenkins success!!";
+        return "hello,jenkins success!";
     }
 }
