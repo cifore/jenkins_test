@@ -14,7 +14,7 @@ public class JenkinController {
     @ResponseBody
     public JSONObject test(){
         JSONObject object = new JSONObject();
-        object.put("name","hello,jenkins success1");
+        object.put("name","hello,jenkins success!");
         return object;
     }
 }
