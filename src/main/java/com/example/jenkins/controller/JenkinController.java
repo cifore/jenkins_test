@@ -12,6 +12,6 @@ public class JenkinController {
     @RequestMapping(value = "/jenkins",method = RequestMethod.GET)
     @ResponseBody
     public String test(){
-        return "hello,jenkins init success";
+        return "hello,jenkins init success,哈哈";
     }
 }
